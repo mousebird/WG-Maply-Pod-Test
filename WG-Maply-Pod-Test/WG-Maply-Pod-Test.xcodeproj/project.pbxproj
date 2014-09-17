@@ -1,0 +1,537 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2B0EB6F519C9FCAD007E05F5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B0EB6F419C9FCAD007E05F5 /* Foundation.framework */; };
+		2B0EB6F719C9FCAD007E05F5 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B0EB6F619C9FCAD007E05F5 /* CoreGraphics.framework */; };
+		2B0EB6F919C9FCAD007E05F5 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B0EB6F819C9FCAD007E05F5 /* UIKit.framework */; };
+		2B0EB6FF19C9FCAD007E05F5 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2B0EB6FD19C9FCAD007E05F5 /* InfoPlist.strings */; };
+		2B0EB70119C9FCAD007E05F5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B0EB70019C9FCAD007E05F5 /* main.m */; };
+		2B0EB70519C9FCAD007E05F5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B0EB70419C9FCAD007E05F5 /* AppDelegate.m */; };
+		2B0EB70719C9FCAD007E05F5 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2B0EB70619C9FCAD007E05F5 /* Images.xcassets */; };
+		2B0EB70E19C9FCAD007E05F5 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B0EB70D19C9FCAD007E05F5 /* XCTest.framework */; };
+		2B0EB70F19C9FCAD007E05F5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B0EB6F419C9FCAD007E05F5 /* Foundation.framework */; };
+		2B0EB71019C9FCAD007E05F5 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B0EB6F819C9FCAD007E05F5 /* UIKit.framework */; };
+		2B0EB71819C9FCAD007E05F5 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2B0EB71619C9FCAD007E05F5 /* InfoPlist.strings */; };
+		2B0EB71A19C9FCAD007E05F5 /* WG_Maply_Pod_TestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B0EB71919C9FCAD007E05F5 /* WG_Maply_Pod_TestTests.m */; };
+		2B0EB72E19CA011B007E05F5 /* AnimationTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B0EB72419CA011B007E05F5 /* AnimationTest.m */; };
+		2B0EB72F19CA011B007E05F5 /* ConfigViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B0EB72619CA011B007E05F5 /* ConfigViewController.m */; };
+		2B0EB73019CA011B007E05F5 /* ConfigViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2B0EB72719CA011B007E05F5 /* ConfigViewController.xib */; };
+		2B0EB73119CA011B007E05F5 /* StartupViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B0EB72919CA011B007E05F5 /* StartupViewController.m */; };
+		2B0EB73219CA011B007E05F5 /* TestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B0EB72B19CA011B007E05F5 /* TestViewController.m */; };
+		2B0EB73319CA011B007E05F5 /* WeatherShader.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B0EB72D19CA011B007E05F5 /* WeatherShader.m */; };
+		2B0EB73519CA01DB007E05F5 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B0EB73419CA01DB007E05F5 /* CoreLocation.framework */; };
+		D80047E395824295AEE1B23C /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B22DE88379504E47BA8D1E81 /* libPods.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2B0EB71119C9FCAD007E05F5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2B0EB6E919C9FCAD007E05F5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2B0EB6F019C9FCAD007E05F5;
+			remoteInfo = "WG-Maply-Pod-Test";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		053D102DB77B46A0807AF7A4 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = ../Pods/Pods.xcconfig; sourceTree = "<group>"; };
+		2B0EB6F119C9FCAD007E05F5 /* WG-Maply-Pod-Test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "WG-Maply-Pod-Test.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2B0EB6F419C9FCAD007E05F5 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		2B0EB6F619C9FCAD007E05F5 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		2B0EB6F819C9FCAD007E05F5 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		2B0EB6FC19C9FCAD007E05F5 /* WG-Maply-Pod-Test-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "WG-Maply-Pod-Test-Info.plist"; sourceTree = "<group>"; };
+		2B0EB6FE19C9FCAD007E05F5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		2B0EB70019C9FCAD007E05F5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2B0EB70219C9FCAD007E05F5 /* WG-Maply-Pod-Test-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "WG-Maply-Pod-Test-Prefix.pch"; sourceTree = "<group>"; };
+		2B0EB70319C9FCAD007E05F5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		2B0EB70419C9FCAD007E05F5 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		2B0EB70619C9FCAD007E05F5 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		2B0EB70C19C9FCAD007E05F5 /* WG-Maply-Pod-TestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "WG-Maply-Pod-TestTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2B0EB70D19C9FCAD007E05F5 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		2B0EB71519C9FCAD007E05F5 /* WG-Maply-Pod-TestTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "WG-Maply-Pod-TestTests-Info.plist"; sourceTree = "<group>"; };
+		2B0EB71719C9FCAD007E05F5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		2B0EB71919C9FCAD007E05F5 /* WG_Maply_Pod_TestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WG_Maply_Pod_TestTests.m; sourceTree = "<group>"; };
+		2B0EB72319CA011B007E05F5 /* AnimationTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AnimationTest.h; sourceTree = "<group>"; };
+		2B0EB72419CA011B007E05F5 /* AnimationTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AnimationTest.m; sourceTree = "<group>"; };
+		2B0EB72519CA011B007E05F5 /* ConfigViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ConfigViewController.h; sourceTree = "<group>"; };
+		2B0EB72619CA011B007E05F5 /* ConfigViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ConfigViewController.m; sourceTree = "<group>"; };
+		2B0EB72719CA011B007E05F5 /* ConfigViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ConfigViewController.xib; sourceTree = "<group>"; };
+		2B0EB72819CA011B007E05F5 /* StartupViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StartupViewController.h; sourceTree = "<group>"; };
+		2B0EB72919CA011B007E05F5 /* StartupViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StartupViewController.m; sourceTree = "<group>"; };
+		2B0EB72A19CA011B007E05F5 /* TestViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestViewController.h; sourceTree = "<group>"; };
+		2B0EB72B19CA011B007E05F5 /* TestViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestViewController.m; sourceTree = "<group>"; };
+		2B0EB72C19CA011B007E05F5 /* WeatherShader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WeatherShader.h; sourceTree = "<group>"; };
+		2B0EB72D19CA011B007E05F5 /* WeatherShader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WeatherShader.m; sourceTree = "<group>"; };
+		2B0EB73419CA01DB007E05F5 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		B22DE88379504E47BA8D1E81 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2B0EB6EE19C9FCAD007E05F5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B0EB73519CA01DB007E05F5 /* CoreLocation.framework in Frameworks */,
+				2B0EB6F719C9FCAD007E05F5 /* CoreGraphics.framework in Frameworks */,
+				2B0EB6F919C9FCAD007E05F5 /* UIKit.framework in Frameworks */,
+				2B0EB6F519C9FCAD007E05F5 /* Foundation.framework in Frameworks */,
+				D80047E395824295AEE1B23C /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2B0EB70919C9FCAD007E05F5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B0EB70E19C9FCAD007E05F5 /* XCTest.framework in Frameworks */,
+				2B0EB71019C9FCAD007E05F5 /* UIKit.framework in Frameworks */,
+				2B0EB70F19C9FCAD007E05F5 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2B0EB6E819C9FCAD007E05F5 = {
+			isa = PBXGroup;
+			children = (
+				2B0EB6FA19C9FCAD007E05F5 /* WG-Maply-Pod-Test */,
+				2B0EB71319C9FCAD007E05F5 /* WG-Maply-Pod-TestTests */,
+				2B0EB6F319C9FCAD007E05F5 /* Frameworks */,
+				2B0EB6F219C9FCAD007E05F5 /* Products */,
+				053D102DB77B46A0807AF7A4 /* Pods.xcconfig */,
+			);
+			sourceTree = "<group>";
+		};
+		2B0EB6F219C9FCAD007E05F5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2B0EB6F119C9FCAD007E05F5 /* WG-Maply-Pod-Test.app */,
+				2B0EB70C19C9FCAD007E05F5 /* WG-Maply-Pod-TestTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2B0EB6F319C9FCAD007E05F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2B0EB73419CA01DB007E05F5 /* CoreLocation.framework */,
+				2B0EB6F419C9FCAD007E05F5 /* Foundation.framework */,
+				2B0EB6F619C9FCAD007E05F5 /* CoreGraphics.framework */,
+				2B0EB6F819C9FCAD007E05F5 /* UIKit.framework */,
+				2B0EB70D19C9FCAD007E05F5 /* XCTest.framework */,
+				B22DE88379504E47BA8D1E81 /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2B0EB6FA19C9FCAD007E05F5 /* WG-Maply-Pod-Test */ = {
+			isa = PBXGroup;
+			children = (
+				2B0EB70319C9FCAD007E05F5 /* AppDelegate.h */,
+				2B0EB70419C9FCAD007E05F5 /* AppDelegate.m */,
+				2B0EB72319CA011B007E05F5 /* AnimationTest.h */,
+				2B0EB72419CA011B007E05F5 /* AnimationTest.m */,
+				2B0EB72519CA011B007E05F5 /* ConfigViewController.h */,
+				2B0EB72619CA011B007E05F5 /* ConfigViewController.m */,
+				2B0EB72719CA011B007E05F5 /* ConfigViewController.xib */,
+				2B0EB72819CA011B007E05F5 /* StartupViewController.h */,
+				2B0EB72919CA011B007E05F5 /* StartupViewController.m */,
+				2B0EB72A19CA011B007E05F5 /* TestViewController.h */,
+				2B0EB72B19CA011B007E05F5 /* TestViewController.m */,
+				2B0EB72C19CA011B007E05F5 /* WeatherShader.h */,
+				2B0EB72D19CA011B007E05F5 /* WeatherShader.m */,
+				2B0EB70619C9FCAD007E05F5 /* Images.xcassets */,
+				2B0EB6FB19C9FCAD007E05F5 /* Supporting Files */,
+			);
+			path = "WG-Maply-Pod-Test";
+			sourceTree = "<group>";
+		};
+		2B0EB6FB19C9FCAD007E05F5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2B0EB6FC19C9FCAD007E05F5 /* WG-Maply-Pod-Test-Info.plist */,
+				2B0EB6FD19C9FCAD007E05F5 /* InfoPlist.strings */,
+				2B0EB70019C9FCAD007E05F5 /* main.m */,
+				2B0EB70219C9FCAD007E05F5 /* WG-Maply-Pod-Test-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2B0EB71319C9FCAD007E05F5 /* WG-Maply-Pod-TestTests */ = {
+			isa = PBXGroup;
+			children = (
+				2B0EB71919C9FCAD007E05F5 /* WG_Maply_Pod_TestTests.m */,
+				2B0EB71419C9FCAD007E05F5 /* Supporting Files */,
+			);
+			path = "WG-Maply-Pod-TestTests";
+			sourceTree = "<group>";
+		};
+		2B0EB71419C9FCAD007E05F5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2B0EB71519C9FCAD007E05F5 /* WG-Maply-Pod-TestTests-Info.plist */,
+				2B0EB71619C9FCAD007E05F5 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2B0EB6F019C9FCAD007E05F5 /* WG-Maply-Pod-Test */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2B0EB71D19C9FCAD007E05F5 /* Build configuration list for PBXNativeTarget "WG-Maply-Pod-Test" */;
+			buildPhases = (
+				B834BDBA9BAA4066879A39C3 /* Check Pods Manifest.lock */,
+				2B0EB6ED19C9FCAD007E05F5 /* Sources */,
+				2B0EB6EE19C9FCAD007E05F5 /* Frameworks */,
+				2B0EB6EF19C9FCAD007E05F5 /* Resources */,
+				0AC75AC443434745AC3D3C5C /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "WG-Maply-Pod-Test";
+			productName = "WG-Maply-Pod-Test";
+			productReference = 2B0EB6F119C9FCAD007E05F5 /* WG-Maply-Pod-Test.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2B0EB70B19C9FCAD007E05F5 /* WG-Maply-Pod-TestTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2B0EB72019C9FCAD007E05F5 /* Build configuration list for PBXNativeTarget "WG-Maply-Pod-TestTests" */;
+			buildPhases = (
+				2B0EB70819C9FCAD007E05F5 /* Sources */,
+				2B0EB70919C9FCAD007E05F5 /* Frameworks */,
+				2B0EB70A19C9FCAD007E05F5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2B0EB71219C9FCAD007E05F5 /* PBXTargetDependency */,
+			);
+			name = "WG-Maply-Pod-TestTests";
+			productName = "WG-Maply-Pod-TestTests";
+			productReference = 2B0EB70C19C9FCAD007E05F5 /* WG-Maply-Pod-TestTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2B0EB6E919C9FCAD007E05F5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "mousebird consulting";
+				TargetAttributes = {
+					2B0EB70B19C9FCAD007E05F5 = {
+						TestTargetID = 2B0EB6F019C9FCAD007E05F5;
+					};
+				};
+			};
+			buildConfigurationList = 2B0EB6EC19C9FCAD007E05F5 /* Build configuration list for PBXProject "WG-Maply-Pod-Test" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 2B0EB6E819C9FCAD007E05F5;
+			productRefGroup = 2B0EB6F219C9FCAD007E05F5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2B0EB6F019C9FCAD007E05F5 /* WG-Maply-Pod-Test */,
+				2B0EB70B19C9FCAD007E05F5 /* WG-Maply-Pod-TestTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2B0EB6EF19C9FCAD007E05F5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B0EB6FF19C9FCAD007E05F5 /* InfoPlist.strings in Resources */,
+				2B0EB70719C9FCAD007E05F5 /* Images.xcassets in Resources */,
+				2B0EB73019CA011B007E05F5 /* ConfigViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2B0EB70A19C9FCAD007E05F5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B0EB71819C9FCAD007E05F5 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0AC75AC443434745AC3D3C5C /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/../Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B834BDBA9BAA4066879A39C3 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2B0EB6ED19C9FCAD007E05F5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B0EB73219CA011B007E05F5 /* TestViewController.m in Sources */,
+				2B0EB72E19CA011B007E05F5 /* AnimationTest.m in Sources */,
+				2B0EB70519C9FCAD007E05F5 /* AppDelegate.m in Sources */,
+				2B0EB72F19CA011B007E05F5 /* ConfigViewController.m in Sources */,
+				2B0EB70119C9FCAD007E05F5 /* main.m in Sources */,
+				2B0EB73119CA011B007E05F5 /* StartupViewController.m in Sources */,
+				2B0EB73319CA011B007E05F5 /* WeatherShader.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2B0EB70819C9FCAD007E05F5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B0EB71A19C9FCAD007E05F5 /* WG_Maply_Pod_TestTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2B0EB71219C9FCAD007E05F5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2B0EB6F019C9FCAD007E05F5 /* WG-Maply-Pod-Test */;
+			targetProxy = 2B0EB71119C9FCAD007E05F5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2B0EB6FD19C9FCAD007E05F5 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2B0EB6FE19C9FCAD007E05F5 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		2B0EB71619C9FCAD007E05F5 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2B0EB71719C9FCAD007E05F5 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2B0EB71B19C9FCAD007E05F5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2B0EB71C19C9FCAD007E05F5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2B0EB71E19C9FCAD007E05F5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 053D102DB77B46A0807AF7A4 /* Pods.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "WG-Maply-Pod-Test/WG-Maply-Pod-Test-Prefix.pch";
+				INFOPLIST_FILE = "WG-Maply-Pod-Test/WG-Maply-Pod-Test-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		2B0EB71F19C9FCAD007E05F5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 053D102DB77B46A0807AF7A4 /* Pods.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "WG-Maply-Pod-Test/WG-Maply-Pod-Test-Prefix.pch";
+				INFOPLIST_FILE = "WG-Maply-Pod-Test/WG-Maply-Pod-Test-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		2B0EB72119C9FCAD007E05F5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/WG-Maply-Pod-Test.app/WG-Maply-Pod-Test";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "WG-Maply-Pod-Test/WG-Maply-Pod-Test-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "WG-Maply-Pod-TestTests/WG-Maply-Pod-TestTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		2B0EB72219C9FCAD007E05F5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/WG-Maply-Pod-Test.app/WG-Maply-Pod-Test";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "WG-Maply-Pod-Test/WG-Maply-Pod-Test-Prefix.pch";
+				INFOPLIST_FILE = "WG-Maply-Pod-TestTests/WG-Maply-Pod-TestTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2B0EB6EC19C9FCAD007E05F5 /* Build configuration list for PBXProject "WG-Maply-Pod-Test" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2B0EB71B19C9FCAD007E05F5 /* Debug */,
+				2B0EB71C19C9FCAD007E05F5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2B0EB71D19C9FCAD007E05F5 /* Build configuration list for PBXNativeTarget "WG-Maply-Pod-Test" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2B0EB71E19C9FCAD007E05F5 /* Debug */,
+				2B0EB71F19C9FCAD007E05F5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2B0EB72019C9FCAD007E05F5 /* Build configuration list for PBXNativeTarget "WG-Maply-Pod-TestTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2B0EB72119C9FCAD007E05F5 /* Debug */,
+				2B0EB72219C9FCAD007E05F5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2B0EB6E919C9FCAD007E05F5 /* Project object */;
+}
